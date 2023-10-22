@@ -20,7 +20,7 @@ which explains some of the layout and design decisions.
 
 ### Prerequisites
 
-1. python >=3.10 (3.12 preferred) (recommended install via
+1. python >=3.10, <3.13 (3.12 preferred) (recommended install via
    [pyenv](https://github.com/pyenv/pyenv) or equivalent)
 2. [poetry](https://python-poetry.org/docs/#installing-with-pipx) 1.6.1 or
    compatible (recommended install via [pipx](https://pypa.github.io/pipx/))
