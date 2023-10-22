@@ -11,6 +11,9 @@ generated README (which is in the source of the template).
 The _template_ is MIT-licensed. Pick whatever license suits you for The
 generated code.
 
+Rather use rust instead? That template is
+[here](https://github.com/mattcl/aoc-template)
+
 
 ## Prerequisites
 
