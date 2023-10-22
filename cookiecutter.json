@@ -1,0 +1,7 @@
+{
+    "aoc_year": "2022",
+    "github_username": "mattcl",
+    "project_name": "aoc{{ cookiecutter.aoc_year }}",
+    "package_name": "{{ cookiecutter.github_username }}-{{ cookiecutter.project_name }}",
+    "__bin_name": "{{ cookiecutter.github_username }}-aoc"
+}
