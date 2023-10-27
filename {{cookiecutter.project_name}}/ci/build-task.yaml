@@ -7,6 +7,8 @@ image_resource:
     tag: 3.12
 
 inputs:
+  # this repository will be provided to the task in the registry-image as a
+  # directory named `repo`
   - name: repo
 
 run:
