@@ -32,7 +32,7 @@ line-length = 120
 
 [tool.pytest.ini_options]
 markers = [
-    "real: marks tests as running against the real input (deselect with '-m \"not real\"'",
-    "example: marks tests as running against the example input (deselect with '-m \"not example\"",
-    "bench: marks tests as benchmarking (deselect with '-m \"not bench\""
+    "real: marks tests as running against the real input (deselect with '-m \"not real\"')",
+    "example: marks tests as running against the example input (deselect with '-m \"not example\"')",
+    "bench: marks tests as benchmarking (deselect with '-m \"not bench\"')"
 ]
