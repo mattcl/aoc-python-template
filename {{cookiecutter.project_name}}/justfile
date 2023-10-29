@@ -1,6 +1,6 @@
 # make the modules/files/tests for a new day's problem
 new DAY:
-    scripts/new.sh {{DAY}}
+    scripts/new.sh {{ {{DAY}} }}
 
 # run the unit tests (against example inputs)
 unit:
