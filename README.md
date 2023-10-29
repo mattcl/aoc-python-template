@@ -1,7 +1,7 @@
 # An Advent of Code Cookiecutter Template
 
 This template generates a `poetry` python project that is compatible with the
-[specifications](https://github.com/mattcl/aoc-ci-bencher/blob/master/SPECIFICATION.md)
+[specifications](https://github.com/mattcl/aoc-benchmarks/blob/master/SPECIFICATION.md)
 for supporting comparative benchmarks between different advent of code
 implementations.
 
