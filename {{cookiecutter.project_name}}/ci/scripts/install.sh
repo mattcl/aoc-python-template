@@ -5,4 +5,4 @@ set -e
 poetry build
 
 # install the built package via pipx
-pipx install -f dist/{{ cookiecutter.__bin_name }}*.tar.gz
+pipx install -f dist/*.tar.gz
