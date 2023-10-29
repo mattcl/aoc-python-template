@@ -57,7 +57,7 @@ directory.
 
 You can either copy the templates and create the input placeholders by yourself,
 or you can run one of the following. By default, the template that generated
-this project also generated the day 1 placehodler module/tests/inputs.
+this project also generated the day 1 placeholder module/tests/inputs.
 
 ```
 # without just
