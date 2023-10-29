@@ -1,4 +1,4 @@
-"""1: PROBLEM NAME"""
+"""01: PROBLEM NAME"""
 import aoc.util
 
 
