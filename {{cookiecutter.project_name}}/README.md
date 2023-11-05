@@ -22,7 +22,7 @@ which explains some of the layout and design decisions.
 
 1. python >=3.10, <3.13 (3.12 preferred) (recommended install via
    [pyenv](https://github.com/pyenv/pyenv) or equivalent)
-2. [poetry](https://python-poetry.org/docs/#installing-with-pipx) 1.6.1 or
+2. [poetry](https://python-poetry.org/docs/#installing-with-pipx) >=1.5.1 or
    compatible (recommended install via [pipx](https://pypa.github.io/pipx/))
 3. _Optionally_ [just](https://github.com/casey/just#packages) for convenience commands
 4. _Optionally_ docker

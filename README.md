@@ -20,7 +20,7 @@ Rather use rust instead? That template is
 1. git
 2. python >=3.10, <3.13 (3.12 preferred) (recommended install via
    [pyenv](https://github.com/pyenv/pyenv) or equivalent)
-3. [poetry](https://python-poetry.org/docs/#installing-with-pipx) 1.6.1 or
+3. [poetry](https://python-poetry.org/docs/#installing-with-pipx) >=1.5.1 or
    compatible (recommended install via [pipx](https://pypa.github.io/pipx/))
 4. [cookiecutter](https://cookiecutter.readthedocs.io/en/stable/README.html)
    (recommended install via [pipx](https://pypa.github.io/pipx/))
