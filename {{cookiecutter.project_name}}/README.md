@@ -15,6 +15,10 @@ This project is designed to be compatible with a [comparative benchmarking
 pipeline](https://github.com/mattcl/aoc-benchmarks/blob/master/SPECIFICATION.md),
 which explains some of the layout and design decisions.
 
+For comparative benchmarking this also provides an executable named
+`{{ cookiecutter.__bin_name }}-bench` that does not rely on `click` but is less
+robust (not relying on click cuts down startup time).
+
 
 ## Developing
 

@@ -12,6 +12,7 @@ packages = [
 
 [tool.poetry.scripts]
 {{ cookiecutter.__bin_name }} = "aoc.cli:run"
+{{ cookiecutter.__bin_name }}-bench = "aoc.bench_cli:run"
 
 [tool.poetry.dependencies]
 python = "^3.10"
