@@ -13,7 +13,7 @@ def run():
     # json = os.getenv("AOC_JSON")
     json = True
 
-    name = "aoc.day{:02d}".format(day)
+    name = "aoc.day{:02d}.day{:02d}".format(day, day)
 
     try:
         # Lazily loading the modules prevents the overhad of loading _every_

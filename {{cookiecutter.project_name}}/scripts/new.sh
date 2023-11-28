@@ -14,12 +14,14 @@ fi
 printf -v PADDED_DAY "%02d" "$1"
 
 echo "> creating files for ${PADDED_DAY}"
-MOD_NAME="aoc/day${PADDED_DAY}.py"
+MOD_DIR="aoc/day${PADDED_DAY}/"
+MOD_NAME="${MOD_DIR}/day${PADDED_DAY}.py"
 TEST_NAME="tests/test_day${PADDED_DAY}.py"
 INPUT_NAME="inputs/day${PADDED_DAY}.txt"
 EXAMPLE_NAME="inputs/day${PADDED_DAY}_example.txt"
 
 # copy the module template for the given day to a new module
+cp -r aoc/template/ "$MOD_DIR"
 cp aoc/template.py "$MOD_NAME"
 
 # copy the test template for the given day to a new test file
